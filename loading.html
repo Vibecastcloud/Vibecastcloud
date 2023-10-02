@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/icone.png">
+    <link rel="stylesheet" href="assets/css/loading.css">
+    <title>Loading</title>
+</head>
+<body>
+    <div class="loading-container">
+        <img src="assets/images/logo.png" alt="Logo" class="loading-logo">
+        <div class="loading-text">Carregando...</div>
+    </div>
+    <!-- Redirecionamento para o index.php após 3 segundos -->
+    <script>
+        setTimeout(function() {
+            window.location.href = 'index.php'; // Redirecionar para o index.php após um intervalo de tempo
+        }, 3000); // Tempo em milissegundos (por exemplo, 3000ms = 3 segundos)
+    </script>
+</body>
+</html>
